@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class="main" id="top">
+        <div class="container  w-20">
+            <ul class="nav justify-content-center bg-dark ">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">BestSellers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Today's deals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Citi Ideas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New Releases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Customer Services</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<div class="container text-center">
+    <h1 >Eflyers</h1>
+</div>
+    <div class="background">
+        <nav class="navbar navbar-lg bg-body-tertiary">
+            <div class="container w-20" id="nav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-expanded="false" aria-controls="navbarNavAltMarkup"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Fashion</a>
+                        <a class="nav-link" href="#">Electronic</a>
+                        <a class="nav-link" href="#">Jewellery</a>
+
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                       Select language
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                        <li><a class="dropdown-item" href="#">Telugu</a></li>
+                    </ul>
+                </div>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <h6>CART
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                        class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>
+                </h6>
+
+                <h6>CART <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                    </svg></h6>
+        </nav>
+    </div>
+
+    <!-- carousels -->
+    <div class="container">
+        <div class="row1">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <h2 class="d-block ">
+                            &nbsp;&nbsp;&nbsp;GET
+                            START YOUR FAVOURITE SHOPPING &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="button" value="BUY NOW"
+                                style="background-color: black; color:white; margin-left:350PX; padding:10px ;width:30%" />
+                        </h2>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <h2 class="d-block ">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GET
+                            START YOUR FAVOURITE SHOPPING &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="button" value="BUY NOW"
+                                style="background-color: black; color:white; margin-left:350PX; padding:10px ;width:30%" />
+                        </h2>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+<!-- carousel5 -->
+
+<!-- <div id="carouselExampleControls" class="carousel slide my-1" data-bs-ride="carousel">
+    <div class="carousel-inner2">
+        <div class="row3">
+            <div class="col">
+      <div class="carousel-item active">
+        <img src="./images/t-shirt.jpeg" class=" w-60" alt="...">
+      </div>
+      <div class="col">
+        <img src="./images/shirt.jpeg" class=" w-60" alt="...">
+        </div>
+        <div class="col">
+        <img src="./images/frock.jpeg" class=" w-60" alt="...">
+      </div>
+      </div>
+      <div class="row3">
+        <div class="col">
+  <div class="carousel-item active">
+    <img src="./images/t-shirt.jpeg" class=" w-60" alt="...">
+  </div>
+  <div class="col">
+    <img src="./images/shirt.jpeg" class=" w-60" alt="...">
+    </div>
+    <div class="col">
+    <img src="./images/frock.jpeg" class=" w-60" alt="...">
+  </div>
+  </div>
+  <div class="row3">
+    <div class="col">
+<div class="carousel-item active">
+<img src="./images/t-shirt.jpeg" class=" w-60" alt="...">
+</div>
+<div class="col">
+<img src="./images/shirt.jpeg" class=" w-60" alt="...">
+</div>
+<div class="col">
+<img src="./images/frock.jpeg" class=" w-60" alt="...">
+</div>
+</div>
+
+      
+    </div> 
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+
+
+
+
+  <div class="container text-center"><h1>Man & Woman Fashion</h1>
+    <div class="row">
+        <div class="col ">
+            <div class="card">
+            <h4>Mobile</h4>
+                <h5>Start Price $ 100</h5>
+          <img src="./images/t-shirt.jpeg"width="80%"; height="80%"/>
+          <span>
+          <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a>
+          </span>
+          </div></div>
+          <div class="col ">
+            <div class="card">
+            <h4>Mobile</h4>
+                <h5>Start Price $ 100</h5>
+          <img src="./images/shirt.jpeg"width="80%"; height="80%"/>
+          <span>
+          <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a>
+          </span>
+          </div></div>
+          <div class="col ">
+            <div class="card">
+            <h4>Mobile</h4>
+                <h5>Start Price $ 100</h5>
+          <img src="./images/frock.jpeg"width="80%"; height="80%"/>
+          <span>
+          <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a>
+          </span>
+          </div></div>
+    </div>
+  </div>
+
+
+  <div class="container text-center"><h1>Electronic</h1>
+    <div class="row">
+        <div class="col ">
+            <div class="card">
+            <h4>Mobile</h4>
+                <h5>Start Price $ 100</h5>
+          <img src="./images/mobile-img.png"width="80%"; height="80%"/>
+          <span>
+          <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a>
+          </span>
+          </div></div>
+          <div class="col ">
+            <div class="card">
+            <h4>Laptop</h4>
+                <h5>Start Price $ 100</h5>
+          <img src="./images/laptop-img.png"width="80%"; height="80%"/>
+          <span>
+          <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a>
+          </span>
+          </div></div>
+          <div class="col ">
+            <div class="card">
+            <h4>Mobile</h4>
+                <h5>Start Price $ 100</h5>
+          <img src="./images/computer-img.png"width="55%"; height="10%"/>
+          <span>
+          <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a>
+          </span>
+          </div></div>
+    </div>
+  </div>
+
+  <div class="container text-center" id="jewel"><h1>Jewellery Accessories</h1>
+    <div class="row">
+      <div class="col ">
+        <div class="card">
+        <h4>Jumkas</h4>
+            <h5>Start Price $ 100</h5>
+      <img src="./images/jhumka-img.png"width="80%"; height="80%"/>
+      <span>
+      <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a>
+      </span>
+      </div></div>
+      <div class="col">
+        <div class="card">
+            <h4>Necklaces</h4>
+            <h5>Start Price $ 100</h5>
+        <img src="./images/neklesh-img.png "width="80%"; height="80%"/>
+        <span>
+        <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a></span>
+    </div></div>
+      <div class="col">
+        <div class="card">
+            <h4>Kangans</h4>
+            <h5>Start Price $ 100</h5>
+        <img src="./images/kangan-img.png"width="80%"; height="80%"/>
+        <span>
+            <a>Buy Now</a> &nbsp;&nbsp;&nbsp;&nbsp;<a>See More</a></span>
+        </div></div>
+    </div>
+    </div>
+    </div>
+  </div>
+<!-- footer -->
+  <div class="card text-center">
+
+    <div class="card-body  "id="footer">
+        <h1>Eflyers</h1>
+      
+      <input type="email" value="" placeholder="Your email"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span><a style="color:red">Subscribe</a></span>
+      <hr/>
+      <div class="container  w-20">
+        <ul class="nav justify-content-center bg-dark ">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">BestSellers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Today's deals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Citi Ideas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">New Releases</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ">Customer Services</a>
+            </li>
+        </ul>
+    </div>
+     <p>Help Line Number : +1 1800 1200 1200</p>
+   
+    © 2020 All Rights Reserved. Design by Free html Template</div>
+    <!-- <div class="card-footer text-muted">
+        © 2020 All Rights Reserved. Design by Free html Templates -->
+    </div>
+  </div>
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+            integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+            </script>
+
+        <script type="text/javascript">
+
+            $('.owl-carousel').owlCarousel({
+                // loop: true,
+                margin: 10,
+                nav: false,
+                autoplay: true,
+                autoplayTime: 1000,
+                stagePadding: 50,
+                responsive: {
+                    480: {
+                        items: 1
+                    },
+                    570: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+
+        </script>
+</body>
+
+</html>

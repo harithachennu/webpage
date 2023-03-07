@@ -1,0 +1,60 @@
+*
+{
+    margin:0;
+    padding: 0;
+
+}
+#nav
+{
+    
+    background-color:rgb(17, 219, 219);
+    color: white;
+}
+h2{
+    align-items: center;
+    padding: 130px 200px 0px;
+}
+#top
+{
+    color: white;
+}
+.main{
+width: 100%;
+    float: left;
+    background-color: #2b2a29;
+    
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+    height: auto;
+    padding: 10px 0px;
+}
+.row1
+{
+    background-image: url("./girl.jpg");
+    width: auto;
+    height: 40vh;
+}
+.para{
+    font-size: 12;
+}
+.card
+{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.carousel-inner2{
+    /* display: flex; */
+    border-radius: 2;
+}
+#footer
+{
+    background: black;
+    color: white;
+}
+#footer a{
+    color:rgb(223, 218, 218);
+    
+}
+#jewel a
+{
+    font-size: 20px;
+}
